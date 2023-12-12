@@ -1,0 +1,135 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('imgs/ee3b5f1b-3f01-439e-a558-68ed5aabce41.jpeg');
+    color: white;   
+    font-family: 'Kavoon', serif;
+}
+.col-4{
+    padding: 0;
+    background: 
+    linear-gradient(209deg, rgba(252,176,69,0) 30%, rgba(0,0,0,0.9529061624649859) 95%),
+    linear-gradient(135deg, rgba(252,176,69,0) 30%, rgba(0,0,0,0.9529061624649859) 95%),
+    linear-gradient(50deg, rgba(252,176,69,0) 70%, rgba(0,0,0,0.9529061624649859) 95%),
+    linear-gradient(326deg, rgba(252,176,69,0) 70%, rgba(0,0,0,0.9529061624649859) 95%);
+    
+} 
+
+.col-4 img{
+    width: 40%;
+    margin-top: 22%;
+    transition: all 0.3s;
+}
+#btn-clicker{
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    
+}
+#btn-clicker img{
+    transition:all 0.2s;
+    
+}
+#btn-clicker img:hover{
+    width: 50%;
+}
+#btn-clicker img:active{
+    width: 55%;
+    transition: 0.1s;
+}
+.border{
+    height: 100vh;
+}
+#name-bg{
+    width: 50%;
+    background-color: rgba(0,0,0,.6);
+    border-radius: 60px;
+    margin: auto;
+    margin-top: 10%;
+}
+#name{
+    opacity: 1;
+    color:rgb(237, 237, 237);
+    font-size: 24px;
+}
+#cookiesps{
+    background-color: rgba(0,0,0,.6);
+    width: 100%;
+    color: white;
+    padding-top: 8px;
+}
+#cookiesps h1{
+    font-size: 28px;
+    line-height: 40%;
+}
+.separator-vertical{
+    background: url('imgs/panelVertical.png');
+    background-repeat: repeat-y;
+    background-size: cover;
+    width: 24px;
+}
+
+#separator-horizontal{
+    background: url('imgs/panelHorizontal.png');
+    width: 100%;
+    height: 16px;
+}
+.div-store{
+    
+    background: linear-gradient(180deg, rgba(0,0,0,0.7120098039215687) 100%, rgba(177,252,69,0) 100%),
+    linear-gradient(180deg, rgba(177,252,69,0) 69%, rgba(0,0,0,0.8576680672268908) 90%),
+    linear-gradient(180deg, rgba(0,0,0,0.8576680672268908) 1%, rgba(177,252,69,0) 10%),
+    linear-gradient(90deg, rgba(177,252,69,0) 85%, rgba(0,0,0,0.8576680672268908) 98%);
+    justify-content: center;
+    
+}
+.store-tile{
+    background: url(imgs/storeTile.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 75px;
+}
+#buy-qtd{   
+    background: linear-gradient(0deg, rgba(252,176,69,0) 0%, rgba(0,0,0,0.91624649859) 95%);
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    align-items: center;
+}
+#buy-qtd button{
+    outline: none;
+    border: none;
+    background: none;
+}
+.buyandsell{
+    width: 10%;
+    color: rgb(201, 201, 201);
+}
+.buyandsellactive{
+
+    color: rgb(255, 255, 255);
+    background: #1a1a1a;
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+
+}
+
+.store-tile{
+    text-align: left;
+    border: none;
+    outline: none;
+    align-items: center;
+    display: flex;
+}
+.qtd{
+    padding-right: 30px;
+}
+.store-tile-img{
+    margin-bottom: 11px;
+}
+
+
