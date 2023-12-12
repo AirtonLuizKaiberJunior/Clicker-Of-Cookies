@@ -25,10 +25,10 @@ powerUpgrade.addEventListener("click", function() {
         clickerPowerQtd += 1;
         document.getElementById('clicker-power-value').innerHTML = " " + clickerPowervalue;
         document.getElementById('clicker-power-qtd').innerHTML = " " + clickerPowerQtd;
-    }
-    else if(cookiesCount < clickerPowervalue){
+    }   else if(cookiesCount < clickerPowervalue){
         alert("You don't have enough cookies");
     }
+    
 });
 
 function refreshCookieCount() {
