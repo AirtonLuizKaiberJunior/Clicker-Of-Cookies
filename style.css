@@ -101,6 +101,14 @@ body{
     display: flex;
     margin-bottom: -11px;
 }
+.buyed{
+    color: white;
+    filter: blur(50px);
+}
+.store-tile-img{
+    margin-bottom: 11px;
+    width: 60px;
+}
 #buy-qtd{   
     background: linear-gradient(0deg, rgba(252,176,69,0) 0%, rgba(0,0,0,0.91624649859) 95%);
     display: grid;
@@ -126,10 +134,6 @@ body{
 
 .qtd{
     padding-right: 30px;
-}
-.store-tile-img{
-    margin-bottom: 11px;
-    width: 60px;
 }
 
 
